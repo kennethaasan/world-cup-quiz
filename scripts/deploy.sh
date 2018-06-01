@@ -7,4 +7,5 @@ export CI=true
 yarn build
 # yarn test
 cd build
-now --name world-cup-quiz
+URL=$(now --name world-cup-quiz)
+now alias ${URL} vm.kennethaasan.no
