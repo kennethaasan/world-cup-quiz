@@ -1,0 +1,15 @@
+{
+  "name": "world-cup-quiz-google-forms",
+  "version": "1.0.0",
+  "author": "Kenneth Aasan",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node google-forms.js",
+    "start:dev": "nodemon google-forms.js --ignore questions.json"
+  },
+  "dependencies": {
+    "node-fetch": "^2.1.2",
+    "nodemon": "^1.17.5"
+  }
+}

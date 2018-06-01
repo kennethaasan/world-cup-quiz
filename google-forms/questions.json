@@ -1,0 +1,2116 @@
+{
+  "questions_group_stage": [
+    {
+      "name": "Gruppe A",
+      "matches": [
+        { "question": "Uruguay - Russland" },
+        { "question": "Russland - Saudi-Arabia" },
+        { "question": "Egypt - Uruguay" },
+        { "question": "Russland - Egypt" },
+        { "question": "Uruguay - Saudi-Arabia" },
+        { "question": "Saudi-Arabia - Egypt" }
+      ]
+    },
+    {
+      "name": "Gruppe B",
+      "matches": [
+        { "question": "Portugal - Spania" },
+        { "question": "Marokko - Iran" },
+        { "question": "Portugal - Marokko" },
+        { "question": "Iran - Spania" },
+        { "question": "Iran - Portugal" },
+        { "question": "Spania - Marokko" }
+      ]
+    },
+    {
+      "name": "Gruppe C",
+      "matches": [
+        { "question": "Frankrike - Peru" },
+        { "question": "Frankrike - Australia" },
+        { "question": "Peru - Danmark" },
+        { "question": "Danmark - Australia" },
+        { "question": "Danmark - Frankrike" },
+        { "question": "Australia - Peru" }
+      ]
+    },
+    {
+      "name": "Gruppe D",
+      "matches": [
+        { "question": "Argentina - Kroatia" },
+        { "question": "Argentina - Island" },
+        { "question": "Kroatia - Nigeria" },
+        { "question": "Nigeria - Island" },
+        { "question": "Nigeria - Argentina" },
+        { "question": "Island - Kroatia" }
+      ]
+    },
+    {
+      "name": "Gruppe E",
+      "matches": [
+        { "question": "Brasil - Sveits" },
+        { "question": "Costa Rica - Serbia" },
+        { "question": "Brasil - Costa Rica" },
+        { "question": "Serbia - Sveits" },
+        { "question": "Serbia - Brasil" },
+        { "question": "Sveits - Costa Rica" }
+      ]
+    },
+    {
+      "name": "Gruppe F",
+      "matches": [
+        { "question": "Tyskland - Mexico" },
+        { "question": "Sverige - Republikken Korea" },
+        { "question": "Tyskland - Sverige" },
+        { "question": "Republikken Korea - Mexico" },
+        { "question": "Republikken Korea - Tyskland" },
+        { "question": "Mexico - Sverige" }
+      ]
+    },
+    {
+      "name": "Gruppe G",
+      "matches": [
+        { "question": "Belgia - Panama" },
+        { "question": "Tunisia - England" },
+        { "question": "Belgia - Tunisia" },
+        { "question": "England - Panama" },
+        { "question": "England - Belgia" },
+        { "question": "Panama - Tunisia" }
+      ]
+    },
+    {
+      "name": "Gruppe H",
+      "matches": [
+        { "question": "Polen - Senegal" },
+        { "question": "Colombia - Japan" },
+        { "question": "Polen - Colombia" },
+        { "question": "Japan - Senegal" },
+        { "question": "Japan - Polen" },
+        { "question": "Senegal - Colombia" }
+      ]
+    }
+  ],
+  "questions_tournament": [
+    {
+      "question": "Verdenscup - Vinner",
+      "alternatives": [
+        "England",
+        "Tyskland",
+        "Island",
+        "Belgia",
+        "Danmark",
+        "Polen",
+        "Portugal",
+        "Spania",
+        "Sverige",
+        "Sveits",
+        "Serbia",
+        "Russland",
+        "Peru",
+        "Colombia",
+        "Brasil",
+        "Argentina",
+        "Uruguay",
+        "Mexico",
+        "Kroatia",
+        "Costa Rica",
+        "Tunisia",
+        "Egypt",
+        "Marokko",
+        "Republikken Korea",
+        "Saudi-Arabia",
+        "Iran",
+        "Australia",
+        "Frankrike",
+        "Nigeria",
+        "Japan",
+        "Senegal",
+        "Panama"
+      ]
+    },
+    {
+      "question": "FIFA VM - Topp 2",
+      "alternatives": [
+        "England",
+        "Tyskland",
+        "Island",
+        "Belgia",
+        "Danmark",
+        "Polen",
+        "Portugal",
+        "Spania",
+        "Sverige",
+        "Sveits",
+        "Serbia",
+        "Russland",
+        "Peru",
+        "Colombia",
+        "Brasil",
+        "Argentina",
+        "Uruguay",
+        "Mexico",
+        "Kroatia",
+        "Costa Rica",
+        "Tunisia",
+        "Egypt",
+        "Marokko",
+        "Republikken Korea",
+        "Saudi-Arabia",
+        "Iran",
+        "Australia",
+        "Frankrike",
+        "Nigeria",
+        "Japan",
+        "Senegal",
+        "Panama"
+      ]
+    },
+    {
+      "question": "Verdenscup - Topp 3",
+      "alternatives": [
+        "England",
+        "Tyskland",
+        "Island",
+        "Belgia",
+        "Danmark",
+        "Polen",
+        "Portugal",
+        "Spania",
+        "Sverige",
+        "Sveits",
+        "Serbia",
+        "Russland",
+        "Peru",
+        "Colombia",
+        "Brasil",
+        "Argentina",
+        "Uruguay",
+        "Mexico",
+        "Kroatia",
+        "Costa Rica",
+        "Tunisia",
+        "Egypt",
+        "Marokko",
+        "Republikken Korea",
+        "Saudi-Arabia",
+        "Iran",
+        "Australia",
+        "Frankrike",
+        "Nigeria",
+        "Japan",
+        "Senegal",
+        "Panama"
+      ]
+    },
+    {
+      "question": "FIFA VM - Topp 4",
+      "alternatives": [
+        "England",
+        "Tyskland",
+        "Island",
+        "Belgia",
+        "Danmark",
+        "Polen",
+        "Portugal",
+        "Spania",
+        "Sverige",
+        "Sveits",
+        "Serbia",
+        "Russland",
+        "Peru",
+        "Colombia",
+        "Brasil",
+        "Argentina",
+        "Uruguay",
+        "Mexico",
+        "Kroatia",
+        "Costa Rica",
+        "Tunisia",
+        "Egypt",
+        "Marokko",
+        "Republikken Korea",
+        "Saudi-Arabia",
+        "Iran",
+        "Australia",
+        "Frankrike",
+        "Nigeria",
+        "Japan",
+        "Senegal",
+        "Panama"
+      ]
+    },
+    {
+      "question": "FIFA VM - Topp 8",
+      "alternatives": [
+        "England",
+        "Tyskland",
+        "Island",
+        "Belgia",
+        "Danmark",
+        "Polen",
+        "Portugal",
+        "Spania",
+        "Sverige",
+        "Sveits",
+        "Serbia",
+        "Russland",
+        "Peru",
+        "Colombia",
+        "Brasil",
+        "Argentina",
+        "Uruguay",
+        "Mexico",
+        "Kroatia",
+        "Costa Rica",
+        "Tunisia",
+        "Egypt",
+        "Marokko",
+        "Republikken Korea",
+        "Saudi-Arabia",
+        "Iran",
+        "Australia",
+        "Frankrike",
+        "Nigeria",
+        "Japan",
+        "Senegal",
+        "Panama"
+      ]
+    },
+    {
+      "question": "Verdenscup - Beste Spilleren (Golden Ball)",
+      "alternatives": [
+        "Ronaldo, Cristiano",
+        "Messi, Lionel",
+        "Aguero, Sergio",
+        "Silva, David",
+        "Gomez, Mario",
+        "Iniesta, Andres",
+        "Modric, Luka",
+        "Rakitic, Ivan",
+        "Ramos, Sergio",
+        "Ozil, Mesut",
+        "Khedira, Sami",
+        "Wagner, Sandro",
+        "Higuain, Gonzalo",
+        "Suarez, Luis",
+        "Cavani, Edinson",
+        "Muller, Thomas",
+        "Kroos, Toni",
+        "Di Maria, Angel",
+        "Neuer, Manuel",
+        "Eriksen, Christian",
+        "Neymar Jr",
+        "Lewandowski, Robert",
+        "Giroud, Olivier",
+        "Gundogan, Ilkay",
+        "Perisic, Ivan",
+        "Alcantara, Thiago",
+        "Draxler, Julian",
+        "Falcao, Radamel",
+        "Hazard, Eden",
+        "Rodrigo",
+        "Isco",
+        "Paulinho",
+        "Lukaku, Romelu",
+        "Costa, Diego",
+        "Matic, Nemanja",
+        "Rodriguez, James",
+        "De Bruyne, Kevin",
+        "Sterling, Raheem",
+        "Payet, Dimitri",
+        "Willian",
+        "Pogba, Paul",
+        "Mertens, Dries",
+        "Witsel, Axel",
+        "Cuadrado, Juan Guillermo",
+        "Marquinhos",
+        "Sigurdsson, Gylfi",
+        "Griezmann, Antoine",
+        "Goretzka, Leon",
+        "de Gea, David",
+        "Kane, Harry Edward",
+        "Lacazette, Alexandre",
+        "Salah, Mohamed",
+        "Silva, Bernardo",
+        "Lingard, Jesse",
+        "Coutinho, Philippe",
+        "Guerrero, Paolo",
+        "Forsberg, Emil",
+        "Alli, Dele",
+        "Firmino, Roberto",
+        "Dier, Eric",
+        "Rashford, Marcus",
+        "Kimmich, Joshua",
+        "Dybala, Paulo",
+        "Mane, Sadio",
+        "Werner, Timo",
+        "Silva, Miguel Andre",
+        "Costa, Douglas",
+        "de Jesus, Gabriel",
+        "Mbappe-Lottin, Kylian",
+        "Dembele, Ousmane",
+        "Farfan, Jefferson",
+        "Casemiro",
+        "Vieira, Marcelo",
+        "Bentancur, Rodrigo",
+        "Milinkovic Savic, Sergej"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer (Golden Shoe)",
+      "alternatives": [
+        "Ronaldo, Cristiano",
+        "Messi, Lionel",
+        "Cahill, Tim",
+        "Aguero, Sergio",
+        "Silva, David",
+        "Gomez, Mario",
+        "Kalinic, Nikola",
+        "Blaszczykowski, Jakub",
+        "Toivonen, Ola",
+        "Ozil, Mesut",
+        "Berg, Marcus",
+        "Wagner, Sandro",
+        "Hassan, Ahmed",
+        "Tadic, Dusan",
+        "Bendtner, Nicklas",
+        "Higuain, Gonzalo",
+        "Suarez, Luis",
+        "Cavani, Edinson",
+        "Okazaki, Shinji",
+        "Vela, Carlos",
+        "Muller, Thomas",
+        "Reus, Marco",
+        "Honda, Keisuke",
+        "Eriksen, Christian",
+        "Shaqiri, Xherdan",
+        "Hernandez, Javier",
+        "Neymar Jr",
+        "Dzagoev, Alan",
+        "Jorgensen, Nicolai",
+        "Lewandowski, Robert",
+        "Giroud, Olivier",
+        "Sow, Moussa",
+        "Mandzukic, Mario",
+        "Grosicki, Kamil",
+        "Perisic, Ivan",
+        "Draxler, Julian",
+        "Kagawa, Shinji",
+        "Falcao, Radamel",
+        "Moses, Victor",
+        "Musa, Ahmed",
+        "Hazard, Eden",
+        "Isco",
+        "Smolov, Fyodor",
+        "Paulinho",
+        "Jimenez, Raul",
+        "Stuani, Christian",
+        "Benteke, Christian",
+        "Lukaku, Romelu",
+        "Costa, Diego",
+        "Ruiz, Bryan",
+        "Ghoochannejhad, Reza",
+        "Rodriguez, James",
+        "Seferovic, Haris",
+        "De Bruyne, Kevin",
+        "Mehmedi, Admir",
+        "Sterling, Raheem",
+        "Willian",
+        "Pogba, Paul",
+        "Campbell, Joel",
+        "Bacca, Carlos",
+        "Mertens, Dries",
+        "Peralta, Oribe",
+        "Rogic, Tom",
+        "Gutierrez, Teofilo",
+        "Son, Heung-Min",
+        "Muriel, Luis",
+        "Cuadrado, Juan Guillermo",
+        "Haraguchi, Genki",
+        "Osako, Yuya",
+        "Sigurdsson, Gylfi",
+        "Griezmann, Antoine",
+        "Icardi, Mauro",
+        "Batshuayi Tunga, Michy",
+        "Azmoun, Sardar",
+        "Goretzka, Leon",
+        "Origi, Divock",
+        "Urena, Marco",
+        "Diouf, Mame",
+        "Khazri, Wahbi",
+        "Kane, Harry Edward",
+        "Lacazette, Alexandre",
+        "Salah, Mohamed",
+        "Silva, Bernardo",
+        "Poulsen, Yussuf",
+        "Lingard, Jesse",
+        "Coutinho, Philippe",
+        "Guerrero, Paolo",
+        "Finnbogason, Alfred",
+        "Kramaric, Andrej",
+        "Milik, Arkadiusz",
+        "Vardy, Jamie",
+        "Forsberg, Emil",
+        "Martial, Anthony",
+        "Embolo, Breel",
+        "Alli, Dele",
+        "Carrasco, Yannick",
+        "Firmino, Roberto",
+        "Rashford, Marcus",
+        "Sane, Leroy",
+        "Dybala, Paulo",
+        "Mane, Sadio",
+        "Diao, Keita Balde",
+        "Khenissi, Taha",
+        "Werner, Timo",
+        "Silva, Miguel Andre",
+        "Poloz, Dmitry",
+        "Asensio, Marco",
+        "de Jesus, Gabriel",
+        "Mbappe-Lottin, Kylian",
+        "Fekir, Nabil",
+        "Mitrovic, Aleksandar",
+        "Dembele, Ousmane",
+        "Lozano, Hirving",
+        "Iheanacho, Kelechi",
+        "Cornelius, Andreas",
+        "Sakho, Diafra",
+        "Ighalo, Odion Jude",
+        "Iwobi, Alex",
+        "Borja, Miguel",
+        "Dolberg, Kasper",
+        "Ljajic, Adem",
+        "Ziyech, Hakim",
+        "Farfan, Jefferson",
+        "Boutaib, Khalid",
+        "Taremi, Mehdi",
+        "Perez, Blas",
+        "Torres, Gabriel",
+        "Tejada, Luis",
+        "AL-Sahlawi, Mohammed",
+        "Aspas, Iago",
+        "Lemar, Thomas",
+        "Benedetto, Darío",
+        "Nurse, Roberto",
+        "Prijovic, Aleksandar",
+        "Niang, M'Baye",
+        "Petersen, Nils"
+      ]
+    },
+    {
+      "question": "Verdenscup - Beste Afrikanske Land",
+      "alternatives": ["Tunisia", "Egypt", "Marokko", "Nigeria", "Senegal"]
+    },
+    {
+      "question": "Verdenscup - Beste Fra Asia",
+      "alternatives": [
+        "Republikken Korea",
+        "Saudi-Arabia",
+        "Iran",
+        "Australia",
+        "Japan"
+      ]
+    },
+    {
+      "question": "Verdenscup - Beste Europeiske Land",
+      "alternatives": [
+        "England",
+        "Tyskland",
+        "Island",
+        "Belgia",
+        "Danmark",
+        "Polen",
+        "Portugal",
+        "Spania",
+        "Sverige",
+        "Sveits",
+        "Serbia",
+        "Russland",
+        "Kroatia",
+        "Frankrike"
+      ]
+    },
+    {
+      "question": "Verdenscup - Beste Land fra Nord og Central-Amerika",
+      "alternatives": ["Mexico", "Costa Rica", "Panama"]
+    },
+    {
+      "question": "Verdenscup - Beste Land Fra Sør-Amerika",
+      "alternatives": ["Peru", "Colombia", "Brasil", "Argentina", "Uruguay"]
+    },
+    {
+      "question": "Verdenscup - Finalistene",
+      "alternatives": [
+        "ARGENTINA / SPANIA",
+        "ARGENTINA / TYSKLAND",
+        "ARGENTINA / PORTUGAL",
+        "ARGENTINA / POLAND",
+        "ARGENTINA / KROATIA",
+        "France Vs Spain",
+        "France Vs Germany",
+        "France Vs Portugal",
+        "France Vs Poland",
+        "Croatia Vs France",
+        "BRASIL / SPANIA",
+        "BRASIL / PORTUGAL",
+        "BRASIL / TYSKLAND",
+        "BRASIL / POLAND",
+        "BRASIL / KROATIA",
+        "England Vs Spain",
+        "England Vs Germany",
+        "England Vs Poland",
+        "Croatia Vs England",
+        "Portugal Vs Russia",
+        "Poland Vs Russia",
+        "Croatia Vs Russia",
+        "JAPAN / SPANIA",
+        "TYSKLAND / JAPAN",
+        "Spain Vs Sweden",
+        "Germany Vs Sweden",
+        "Portugal Vs Sweden",
+        "Belgium Vs Spain",
+        "Belgium Vs Portugal",
+        "Belgium Vs Germany",
+        "NIGERIA / SPANIA",
+        "TYSKLAND / NIGERIA",
+        "SPANIA / URUGUAY",
+        "TYSKLAND / URUGUAY",
+        "PORTUGAL / URUGUAY",
+        "Danmark / Spania",
+        "DANMARK / TYSKLAND",
+        "DANMARK / PORTUGAL",
+        "Germany Vs Russia",
+        "Argentina Vs Republic of Korea",
+        "Russia Vs Spain",
+        "France Vs Republic of Korea",
+        "Brazil Vs Republic of Korea",
+        "TYSKLAND / SENEGAL",
+        "KROATIA / URUGUAY",
+        "SENEGAL / SPANIA",
+        "BELGIA / KROATIA",
+        "PORTUGAL / SENEGAL",
+        "KROATIA / SENEGAL",
+        "FRANKRIKE / MEXICO",
+        "ENGLAND / MEXICO",
+        "KROATIA / DANMARK",
+        "England Vs France",
+        "France Vs Sweden",
+        "DANMARK / FRANKRIKE",
+        "France Vs Russia",
+        "France Vs Switzerland",
+        "Portugal Vs Spain",
+        "Germany Vs Spain",
+        "Croatia Vs Spain",
+        "Spain Vs Switzerland",
+        "Germany Vs Portugal",
+        "Croatia Vs Portugal",
+        "England Vs Portugal",
+        "KROATIA / SVEITS",
+        "DANMARK / ENGLAND",
+        "England Vs Russia",
+        "ENGLAND / SVEITS",
+        "RUSSLAND / SVEITS",
+        "PORTUGAL / SVEITS",
+        "Russia Vs Sweden",
+        "Croatia Vs Germany",
+        "Germany Vs Switzerland",
+        "Danmark / Sverige",
+        "DANMARK / RUSSLAND",
+        "DANMARK / SVEITS",
+        "England Vs Sweden",
+        "BRASIL / ENGLAND",
+        "ARGENTINA / BRASIL",
+        "ARGENTINA / ENGLAND",
+        "BRASIL / FRANKRIKE",
+        "ARGENTINA / FRANKRIKE",
+        "BRASIL / MEXICO",
+        "ARGENTINA / SERBIA",
+        "SERBIA / SPANIA",
+        "ENGLAND / URUGUAY",
+        "ENGLAND / SERBIA",
+        "BRASIL / SERBIA",
+        "BRASIL / DENMARK",
+        "BRASIL / URUGUAY",
+        "TYSKLAND / SERBIA",
+        "TYSKLAND / MEXICO",
+        "BRASIL / NIGERIA",
+        "Argentina Vs Mexico",
+        "ENGLAND / NIGERIA",
+        "MEXICO / SPANIA",
+        "FRANKRIKE / SERBIA",
+        "AUSTRALIA / SPANIA",
+        "AUSTRALIA / BRASIL",
+        "ARGENTINA / AUSTRALIA",
+        "ARGENTINA / DANMARK",
+        "PORTUGAL / SERBIA",
+        "AUSTRALIA / ENGLAND",
+        "ARGENTINA / URUGUAY",
+        "MEXICO / PORTUGAL",
+        "FRANKRIKE / URUGUAY",
+        "FRANKRIKE / NIGERIA",
+        "AUSTRALIA / FRANKRIKE",
+        "AUSTRALIA / TYSKLAND",
+        "DANMARK / MEXICO",
+        "MEXICO / URUGUAY",
+        "Denmark Vs Uruguay",
+        "Argentina Vs Switzerland",
+        "BRASIL / JAPAN",
+        "ENGLAND / JAPAN",
+        "BRASIL / SVEITS",
+        "Danmark / Polen",
+        "Germany Vs Poland",
+        "Poland Vs Portugal",
+        "Poland Vs Spain",
+        "Poland Vs Sweden",
+        "Croatia Vs Poland",
+        "BELGIA / BRASIL",
+        "COLOMBIA / URUGUAY",
+        "Belgium Vs France",
+        "COLOMBIA / SPANIA",
+        "BELGIA / COLOMBIA",
+        "BRASIL / COLOMBIA",
+        "COLOMBIA / ENGLAND",
+        "BELGIA / URUGUAY",
+        "COLOMBIA / PORTUGAL",
+        "COLOMBIA / TYSKLAND",
+        "Belgium Vs England",
+        "ARGENTINA / COLOMBIA",
+        "ARGENTINA / BELGIA",
+        "BRASIL / RUSSLAND",
+        "ARGENTINA / RUSSLAND",
+        "COLOMBIA / FRANKRIKE",
+        "Argentina Vs Japan",
+        "Belgium Vs Republic of Korea",
+        "BELGIA / SVEITS",
+        "RUSSLAND / URUGUAY",
+        "Belgium Vs Russia",
+        "BELGIA / COSTA RICA",
+        "FRANKRIKE / JAPAN",
+        "COLOMBIA / MEXICO",
+        "BRASIL / COSTA RICA",
+        "FRANKRIKE / IRAN",
+        "COSTA RICA / FRANKRIKE",
+        "SVEITS / URUGUAY",
+        "Germany Vs Republic of Korea",
+        "COLOMBIA / SVEITS",
+        "COLOMBIA / RUSSLAND",
+        "COLOMBIA / KROATIA",
+        "Argentina Vs Iran",
+        "IRAN / SPANIA",
+        "Republic of Korea Vs Spain",
+        "BELGIA / IRAN",
+        "BELGIA / MEXICO",
+        "BELGIA / NIGERIA",
+        "AUSTRALIA / BELGIA",
+        "BRASIL / IRAN",
+        "COLOMBIA / NIGERIA",
+        "TYSKLAND / IRAN",
+        "IRAN / PORTUGAL",
+        "JAPAN / RUSSLAND",
+        "KROATIA / MEXICO",
+        "COSTA RICA / TYSKLAND",
+        "MEXICO / RUSSLAND",
+        "NIGERIA / RUSSLAND",
+        "Brazil Vs Peru",
+        "Colombia Vs Peru",
+        "Argentina Vs Peru",
+        "Germany Vs Iceland",
+        "France Vs Iceland",
+        "England Vs Iceland",
+        "Iceland Vs Spain",
+        "Poland Vs Switzerland",
+        "Belgium Vs Poland",
+        "Belgium Vs Iceland",
+        "Belgium Vs Sweden",
+        "Brazil Vs Panama",
+        "Argentina Vs Egypt",
+        "Argentina Vs Iceland",
+        "Argentina Vs Morocco",
+        "Argentina Vs Senegal",
+        "Argentina Vs Sweden",
+        "Argentina Vs Tunisia",
+        "Belgium Vs Denmark",
+        "Belgium Vs Egypt",
+        "Belgium Vs Morocco",
+        "Belgium Vs Peru",
+        "Belgium Vs Senegal",
+        "Belgium Vs Serbia",
+        "Belgium Vs Tunisia",
+        "Brazil Vs Egypt",
+        "Brazil Vs Iceland",
+        "Brazil Vs Morocco",
+        "Brazil Vs Saudi Arabia",
+        "Brazil Vs Senegal",
+        "Brazil Vs Sweden",
+        "Brazil Vs Tunisia",
+        "Colombia Vs Denmark",
+        "Colombia Vs Iceland",
+        "Colombia Vs Poland",
+        "Colombia Vs Senegal",
+        "Colombia Vs Serbia",
+        "Colombia Vs Sweden",
+        "Croatia Vs Serbia",
+        "Denmark Vs Senegal",
+        "Egypt Vs England",
+        "Egypt Vs France",
+        "Egypt Vs Germany",
+        "Egypt Vs Russia",
+        "Egypt Vs Spain",
+        "Egypt Vs Uruguay",
+        "England Vs Morocco",
+        "England Vs Peru",
+        "England Vs Senegal",
+        "France Vs Morocco",
+        "France Vs Panama",
+        "France Vs Peru",
+        "France Vs Saudi Arabia",
+        "France Vs Senegal",
+        "France Vs Tunisia",
+        "Germany Vs Morocco",
+        "Germany Vs Panama",
+        "Germany Vs Peru",
+        "Germany Vs Saudi Arabia",
+        "Germany Vs Tunisia",
+        "Iceland Vs Uruguay",
+        "Mexico Vs Poland",
+        "Morocco Vs Spain",
+        "Peru Vs Portugal",
+        "Peru Vs Spain",
+        "Peru Vs Switzerland",
+        "Poland Vs Senegal",
+        "Poland Vs Uruguay",
+        "Peru Vs Russia",
+        "Russia Vs Senegal",
+        "Russia Vs Serbia",
+        "Senegal Vs Uruguay",
+        "Spain Vs Tunisia",
+        "Sweden Vs Uruguay"
+      ]
+    },
+    {
+      "question": "Verdenscup - Vinner For Første Gang",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Vinnende Gruppe",
+      "alternatives": [
+        "Group D",
+        "Group A",
+        "Group B",
+        "Group C",
+        "Group E",
+        "Group F",
+        "Group G",
+        "Group H"
+      ]
+    },
+    {
+      "question": "Verdenscup - Å Komme Til Finalen - Argentina",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "FIFA World Cup 2018 - Reach the Final Australia",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Å Komme Til Finalen - Belgia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Å Komme Til Finalen - Brasil",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Å Komme Til Finalen - Colombia",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Finalen - Kroatia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Finalen - Danmark",
+      "alternatives": ["Yes"]
+    },
+    { "question": "Verdenscup - Nå Finalen - Egypt", "alternatives": ["Yes"] },
+    {
+      "question": "Verdenscup - Å Komme Til Finalen - England",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Å Komme Til Finalen - Tyskland",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "FIFA World Cup 2018 - Reach the Final Iran",
+      "alternatives": ["Yes"]
+    },
+    { "question": "Verdenscup - Nå Finalen - Mexico", "alternatives": ["Yes"] },
+    { "question": "Verdenscup - Nå Finalen - Polen", "alternatives": ["Yes"] },
+    {
+      "question": "Verdenscup - Å Komme Til Finalen - Portugal",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Finalen - Russland",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Finalen - Senegal",
+      "alternatives": ["Yes"]
+    },
+    { "question": "Verdenscup - Nå Finalen - Serbia", "alternatives": ["Yes"] },
+    {
+      "question": "Verdenscup - Å Komme Til Finalen - Spania",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Finalen - Sverige",
+      "alternatives": ["Yes"]
+    },
+    { "question": "Verdenscup - Nå Finalen - Sveits", "alternatives": ["Yes"] },
+    {
+      "question": "Verdenscup - Å Komme Til Finalen - Uruguay",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Argentina",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Australia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Belgia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Brasil",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Colombia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Costa Rica",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "World Cup - Nå Kvartfinalen Kroatia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Danmark",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Egypt",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen England",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Tyskland",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Island",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Iran",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Japan",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Mexico",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Kvartfinalen Marokko",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Nigeria",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Panama",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Peru",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Polen",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Portugal",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Republikken Korea",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Russland",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Saudi Arabia",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Senegal",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Serbia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Spania",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Sverige",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Sveits",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Tunisia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå kvartfinalen Uruguay",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Semifinalen Argentina",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Semifinalen Australia",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Semifinalen Belgia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Semifinalen Brasil",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Semifinalen Colombia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Kroatia",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Danmark",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Egypt",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - England",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Tyskland",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Island",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Japan",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Mexico",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Marokko",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Nigeria",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Peru",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Polen",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Portugal",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Russland",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Senegal",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Serbia",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Spania",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Sverige",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå semifinalen - Sveits",
+      "alternatives": ["Yes"]
+    },
+    {
+      "question": "Verdenscup - Nå Semifinalen Uruguay",
+      "alternatives": ["No", "Yes"]
+    },
+    {
+      "question": "Verdenscup - Eliminering Argentina",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Australia",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Belgium",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Brasil",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Colombia",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Costa Rica",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Kroatia",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Danmark",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Egypt",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering England",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Frankrike",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Tyskland",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Island",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Iran",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Elimination Japan",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Mexico",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Marokko",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Nigeria",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Panama",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Peru",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Polen",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Portugal",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Republikken Korea",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Russland",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Saudi Arabia",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Senegal",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Serbia",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Spania",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Sverige",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Sveits",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Tunisia",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "Verdenscup - Eliminering Uruguay",
+      "alternatives": [
+        "Gruppespillet",
+        "Runde av 16",
+        "Kvartfinalen",
+        "Runner-up",
+        "Vinner",
+        "Semifinalen"
+      ]
+    },
+    {
+      "question": "FIFA World Cup - Team to Allow Most Goals",
+      "alternatives": [
+        "England",
+        "Tyskland",
+        "Island",
+        "Belgia",
+        "Danmark",
+        "Polen",
+        "Portugal",
+        "Spania",
+        "Sverige",
+        "Sveits",
+        "Serbia",
+        "Russland",
+        "Peru",
+        "Colombia",
+        "Brasil",
+        "Argentina",
+        "Uruguay",
+        "Mexico",
+        "Kroatia",
+        "Costa Rica",
+        "Tunisia",
+        "Egypt",
+        "Marokko",
+        "Republikken Korea",
+        "Saudi-Arabia",
+        "Iran",
+        "Australia",
+        "Frankrike",
+        "Nigeria",
+        "Japan",
+        "Senegal",
+        "Panama"
+      ]
+    },
+    {
+      "question": "FIFA World Cup - Team to Receive Most Yellow Cards",
+      "alternatives": [
+        "England",
+        "Tyskland",
+        "Island",
+        "Belgia",
+        "Danmark",
+        "Polen",
+        "Portugal",
+        "Spania",
+        "Sverige",
+        "Sveits",
+        "Serbia",
+        "Russland",
+        "Peru",
+        "Colombia",
+        "Brasil",
+        "Argentina",
+        "Uruguay",
+        "Mexico",
+        "Kroatia",
+        "Costa Rica",
+        "Tunisia",
+        "Egypt",
+        "Marokko",
+        "Republikken Korea",
+        "Saudi-Arabia",
+        "Iran",
+        "Australia",
+        "Frankrike",
+        "Nigeria",
+        "Japan",
+        "Senegal",
+        "Panama"
+      ]
+    },
+    {
+      "question": "Verdenscup - Det Laget Som Scorer Flest Mål",
+      "alternatives": [
+        "England",
+        "Tyskland",
+        "Island",
+        "Belgia",
+        "Danmark",
+        "Polen",
+        "Portugal",
+        "Spania",
+        "Sverige",
+        "Sveits",
+        "Serbia",
+        "Russland",
+        "Peru",
+        "Colombia",
+        "Brasil",
+        "Argentina",
+        "Uruguay",
+        "Mexico",
+        "Kroatia",
+        "Costa Rica",
+        "Tunisia",
+        "Egypt",
+        "Marokko",
+        "Republikken Korea",
+        "Saudi-Arabia",
+        "Iran",
+        "Australia",
+        "Frankrike",
+        "Nigeria",
+        "Japan",
+        "Senegal",
+        "Panama"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Argentina",
+      "alternatives": [
+        "No Goalscorer",
+        "Messi, Lionel",
+        "Aguero, Sergio",
+        "Higuain, Gonzalo",
+        "Mascherano, Javier",
+        "Di Maria, Angel",
+        "Otamendi, Nicolas Hernan",
+        "Biglia, Lucas",
+        "Mercado, Gabriel",
+        "Dybala, Paulo",
+        "Acuna, Marcos",
+        "Fazio, Federico",
+        "Salvio, Eduardo",
+        "Ansaldi, Cristian",
+        "Lo Celso, Giovani",
+        "Meza, Maximiliano",
+        "Pavon, Cristian",
+        "Tagliafico, Nicolas"
+      ]
+    },
+    {
+      "question": "Verdenscup - Australia Toppscorer",
+      "alternatives": [
+        "No Goalscorer",
+        "Cahill, Tim",
+        "Rukavytsya, Nikita",
+        "Jedinak, Mile",
+        "Leckie, Matthew",
+        "Kruse, Robbie",
+        "Rogic, Tom",
+        "Milligan, Mark",
+        "Mooy, Aaron",
+        "Juric, Tomi",
+        "Luongo, Massimo",
+        "Irvine, Jackson",
+        "Sainsbury, Trent"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Belgia",
+      "alternatives": [
+        "No Goalscorer",
+        "Hazard, Eden",
+        "Kompany, Vincent",
+        "Benteke, Christian",
+        "Lukaku, Romelu",
+        "De Bruyne, Kevin",
+        "Chadli, Nacer",
+        "Mertens, Dries",
+        "Fellaini, Marouane",
+        "Dembele, Moussa",
+        "Witsel, Axel",
+        "Vertonghen, Jan",
+        "Alderweireld, Toby",
+        "Ciman, Laurent",
+        "Carrasco, Yannick",
+        "Boyata, Dedryck",
+        "Meunier, Thomas",
+        "Lukaku, Jordan",
+        "Kabasele, Christian",
+        "Hazard, Thorgan",
+        "Tielemans, Youri",
+        "Dendoncker, Leander"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Brasil",
+      "alternatives": [
+        "No Goalscorer",
+        "Marcelo",
+        "Neymar Jr",
+        "Paulinho",
+        "Filipe Luis",
+        "Silva, Thiago",
+        "Costa, Diego",
+        "Willian",
+        "Fernandinho",
+        "Coutinho, Philippe",
+        "Pereira, Danilo",
+        "Firmino, Roberto",
+        "Costa, Douglas",
+        "de Jesus, Gabriel",
+        "Augusto, Renato",
+        "Giuliano",
+        "Casemiro",
+        "Miranda",
+        "Taison",
+        "Geromel, Pedro",
+        "Fagner",
+        "Renato Augusto",
+        "Danilo"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Costa Rica",
+      "alternatives": [
+        "No Goalscorer",
+        "Ruiz, Bryan",
+        "Campbell, Joel",
+        "Borges, Celso",
+        "Tejeda, Yeltsin",
+        "Gonzalez, Geancarlo",
+        "Gamboa, Cristian",
+        "Acosta, Johnny",
+        "Bolanos, Cristian",
+        "Urena, Marco",
+        "Duarte, Oscar",
+        "Waston, Kendall",
+        "Venegas, Johan",
+        "Azofeifa, Randall",
+        "Matarrita, Ronald",
+        "Calvo, Francisco",
+        "Colindres, Daniel",
+        "Guzman, David",
+        "Smith, Ian",
+        "Oviedo, Bryan"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Kroatia",
+      "alternatives": [
+        "No Goalscorer",
+        "Modric, Luka",
+        "Rakitic, Ivan",
+        "Kalinic, Nikola",
+        "Corluka, Vedran",
+        "Mandzukic, Mario",
+        "Perisic, Ivan",
+        "Lovren, Dejan",
+        "Vida, Domagoj",
+        "Badelj, Milan",
+        "Vrsaljko, Sime",
+        "Striniic, Ivan",
+        "Rebic, Ante",
+        "Kovacic, Mateo",
+        "Brozovic, Marcelo",
+        "Kramaric, Andrej",
+        "Pivaric, Josip",
+        "Pjaca, Marko",
+        "Jedvaj, Tin",
+        "Caleta-Car, Duje",
+        "Mitrovic, Matej",
+        "Bradaric, Filip"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Fra England",
+      "alternatives": [
+        "No Goalscorer",
+        "Welbeck, Danny",
+        "Cahill, Gary",
+        "Henderson, Jordan",
+        "Walker, Kyle",
+        "Sterling, Raheem",
+        "Stones, John",
+        "Kane, Harry Edward",
+        "Lingard, Jesse",
+        "Vardy, Jamie",
+        "Alli, Dele",
+        "Dier, Eric",
+        "Rose, Danny",
+        "Rashford, Marcus",
+        "Delph, Fabian",
+        "Maguire, Harry",
+        "Loftus-Cheek, Ruben",
+        "Alexander-Arnold, Trent",
+        "Trippier, Kieran"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Frankrike",
+      "alternatives": [
+        "No Goalscorer",
+        "Giroud, Olivier",
+        "Rami, Adil",
+        "Matuidi, Blaise",
+        "Pogba, Paul",
+        "Thauvin, Florian",
+        "Griezmann, Antoine",
+        "Kante, Ngolo",
+        "Umtiti, Samuel",
+        "Mbappe-Lottin, Kylian",
+        "Fekir, Nabil",
+        "Dembele, Ousmane",
+        "Lemar, Thomas",
+        "Mendy, Benjamin",
+        "Hernandez, Lucas",
+        "Kimpembe, Presnel",
+        "N'Zonzi, Steven",
+        "Pavard, Benjamin",
+        "Tolissi, Corentin",
+        "Sidibe, Djibril"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Tyskland",
+      "alternatives": [
+        "No Goalscorer",
+        "Gomez, Mario",
+        "Ozil, Mesut",
+        "Khedira, Sami",
+        "Muller, Thomas",
+        "Kroos, Toni",
+        "Boateng, Jerome",
+        "Hummels, Mats",
+        "Draxler, Julian",
+        "Rudy, Sebastian",
+        "Goretzka, Leon",
+        "Hector, Jonas",
+        "Brandt, Julian",
+        "Sane, Leroy",
+        "Kimmich, Joshua",
+        "Rudiger, Antonio",
+        "Tah, Jonathan",
+        "Werner, Timo",
+        "Sule, Niklas",
+        "Petersen, Nils",
+        "Plattenhardt, Marvin"
+      ]
+    },
+    {
+      "question": "Verdenscup - Topp Målscorer Island",
+      "alternatives": [
+        "No Goalscorer",
+        "Sigurdsson, Gylfi",
+        "Bjarnason, Birkir",
+        "Finnbogason, Alfred",
+        "Gunnarsson, Aron Einar",
+        "Arnason, Kari",
+        "Bodvarsson, Jon Dadi",
+        "Hallfredsson, Emil",
+        "Gudmundsson, Johann",
+        "Gislason, Rurik",
+        "Skulason, Olafur Ingi",
+        "Traustason, Arnor Ingvi",
+        "Sigurdsson, Ragnar",
+        "Ingason, Sverrir Ingi",
+        "Magnusson, Hordur Bjorgvin",
+        "Skulason, Ari Freyr",
+        "Saevarsson, Birkir Mar",
+        "Sigurdarson, Bjorn",
+        "Gudmundsson, Albert",
+        "Samuel, Fridjonsson",
+        "Eyjolesson, Holmar Orn"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Japan",
+      "alternatives": [
+        "No Goalscorer",
+        "Okazaki, Shinji",
+        "Honda, Keisuke",
+        "Hasebe, Makoto",
+        "Kagawa, Shinji",
+        "Yoshida, Maya",
+        "Haraguchi, Genki",
+        "Yamaguchi, Hotaru",
+        "Osako, Yuya",
+        "Inui, Takashi",
+        "Asano, Takuma",
+        "Ideguchi, Yosuke",
+        "Muto, Yoshinori",
+        "Usami, Takashi"
+      ]
+    },
+    {
+      "question": "Verdenscup - Topp Målscorer Marokko",
+      "alternatives": [
+        "No Goalscorer",
+        "Boussoufa, Moubarak",
+        "Amrabat, Noureddine",
+        "Belhanda, Younes",
+        "El Ahmadi, Karim",
+        "Bouhaddouz, Aziz",
+        "Ziyech, Hakim",
+        "Boutaib, Khalid",
+        "Dirar, Nabil",
+        "Benatia, Mehdi",
+        "Hakimi, Achraf",
+        "El Kaabi, Ayoub",
+        "Da Costa, Manuel",
+        "Saiss, Romain",
+        "Mendyl, Hamza",
+        "Banoun, Badr",
+        "Fajr, Faycal",
+        "Bennasser, Youssef Ait",
+        "Carcela, Mehdi",
+        "Harit, Amine",
+        "Amrabat, Sofyan"
+      ]
+    },
+    {
+      "question": "Verdenscup - Topp Målscorer Peru",
+      "alternatives": [
+        "No Goalscorer",
+        "Farfan, Jefferson",
+        "Flores, Edison",
+        "Ruidiaz, Raul",
+        "Tapia, Renato",
+        "Carillo, Andre",
+        "Hurtado, Paolo",
+        "Ramos, Christian",
+        "Cueva, Christian",
+        "Polo Andrade, Andy Jorman",
+        "Yotun Flores, Victor Yoshimar",
+        "Aquino Sanchez, Pedro Jesus"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Portugal",
+      "alternatives": [
+        "No Goalscorer",
+        "Ronaldo, Cristiano",
+        "Quaresma, Ricardo",
+        "Pepe",
+        "Pereira, Ricardo",
+        "Moutinho, Joao",
+        "Alves, Bruno",
+        "Carvalho, William",
+        "Mario, Joao",
+        "Silva, Bernardo",
+        "Fonte, Jose",
+        "Guerreiro, Raphael",
+        "Cedric",
+        "Silva, Adrien",
+        "Silva, Miguel Andre",
+        "Guedes, Manuel Goncalo",
+        "Fernandes, Bruno",
+        "Martins, Gelson",
+        "Neves, Rúben",
+        "Dias, Ruben",
+        "Rui, Mario"
+      ]
+    },
+    {
+      "question": "Verdenscup - Topp Målscorer Russland",
+      "alternatives": [
+        "No Goalscorer",
+        "Zhirkov, Yuri",
+        "Dzagoev, Alan",
+        "Dzyuba, Artem",
+        "Smolov, Fyodor",
+        "Cheryshev, Denis",
+        "Samedov, Aleksandr",
+        "Gazinsky, Yuriy",
+        "Golovin, Aleksandr",
+        "Miranchuk, Alexei",
+        "Erokhin, Alexander",
+        "Miranchuk, Anton",
+        "Chalov, Fedor",
+        "Aleksandr Tashaev",
+        "Zobnin, Roman",
+        "Kutepov, Ilya",
+        "Kuzyaev, Daler",
+        "Rausch, Konstantin",
+        "Kudryashov, Fedor",
+        "Fernandes, Mario"
+      ]
+    },
+    {
+      "question": "Verdenscup - Topp Målscorer Saudi-Arabia",
+      "alternatives": [
+        "No Goalscorer",
+        "AL-Sahlawi, Mohammed",
+        "AL-Jassim, Taisir",
+        "AL Abid, Nawaf",
+        "AL Shehri, Yahia",
+        "AL Muwallad, Fahad",
+        "AL Faraj, Salman",
+        "AL Dawsari, Salem",
+        "Hawsawi, Osama",
+        "Radeah Assiri, Muhannad Ahmed Abu"
+      ]
+    },
+    {
+      "question": "Verdenscup - Topp Målscorer Senegal",
+      "alternatives": [
+        "No Goalscorer",
+        "Sow, Moussa",
+        "Diouf, Mame",
+        "Mane, Sadio",
+        "Diao, Keita Balde",
+        "Konate, Moussa",
+        "Sakho, Diafra",
+        "Kouyate, Cheikhou",
+        "Sarr, Ismaila",
+        "Ndoye, Cheikh",
+        "Alioune Ndiaye, Papa",
+        "Mbodji, Kara",
+        "Ndiaye, Alfred",
+        "Niang, M'Baye"
+      ]
+    },
+    {
+      "question": "Verdenscup - Topp Målscorer Serbia",
+      "alternatives": [
+        "No Goalscorer",
+        "Tadic, Dusan",
+        "Ivanovic, Branislav",
+        "Kolarov, Aleksandar",
+        "Matic, Nemanja",
+        "Milunovic, Luka",
+        "Kostic, Filip",
+        "Gacinovic, Mijat",
+        "Mitrovic, Aleksandar",
+        "Ljajic, Adem",
+        "Prijovic, Aleksandar",
+        "Zivkovic, Andrija",
+        "Milinkovic Savic, Sergej",
+        "Maksimovic, Nemanja",
+        "Grujic, Marko"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Spania",
+      "alternatives": [
+        "No Goalscorer",
+        "Silva, David",
+        "Iniesta, Andres",
+        "Ramos, Sergio",
+        "Pique, Gerard",
+        "Busquets, Sergio",
+        "Tiago",
+        "Alba, Jordi",
+        "Alcantara, Thiago",
+        "Rodrigo",
+        "Isco",
+        "Azpilicueta, Cesar",
+        "Monreal, Nacho",
+        "Costa, Diego",
+        "Carvajal, Dani",
+        "Koke",
+        "Niguez Esclapez, Saul",
+        "Vazquez Iglesia, Lucas",
+        "Pardo, Sergio Contreras",
+        "Asensio, Marco",
+        "Aspas, Iago",
+        "Moreno Machado, Rodrigo",
+        "Odriozola, Alvaro",
+        "Fernandez, Nacho"
+      ]
+    },
+    {
+      "question": "Verdenscup - Topp Målscorer Sverige",
+      "alternatives": [
+        "No Goalscorer",
+        "Larsson, Sebastian",
+        "Granqvist, Andreas",
+        "Toivonen, Ola",
+        "Berg, Marcus",
+        "Svensson, Gustav",
+        "Own Goal",
+        "Olsson, Martin",
+        "Guidetti, John",
+        "Lustig, Mikael",
+        "Thelin, Isaac",
+        "Forsberg, Emil",
+        "Durmaz, Jimmy",
+        "Hiljemark, Oscar",
+        "Ekdal, Albin",
+        "Augustinsson, Ludwig",
+        "Lindelof, Victor",
+        "Jansson, Pontus",
+        "Claesson, Viktor",
+        "Rohden, Marcus",
+        "Krafth, Emil",
+        "Helander, Filip"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Sveits",
+      "alternatives": [
+        "No Goalscorer",
+        "Lichtsteiner, Stephan",
+        "Shaqiri, Xherdan",
+        "Seferovic, Haris",
+        "Drmic, Josip",
+        "Schar, Fabian",
+        "Xhaka, Granit",
+        "Dzemaili, Blerim",
+        "Rodriguez, Ricardo",
+        "Embolo, Breel",
+        "Zuber, Steven"
+      ]
+    },
+    {
+      "question": "Verdenscup - Toppscorer Uruguay",
+      "alternatives": [
+        "No Goalscorer",
+        "Suarez, Luis",
+        "Cavani, Edinson",
+        "Godin, Diego",
+        "Lodeiro, Nicolas",
+        "Caceres, Martin",
+        "Ramirez, Gaston",
+        "Coates, Sebastian",
+        "Rodriguez, Cristian",
+        "Sanchez Moreno, Carlos Alberto",
+        "de Arrascaeta, Giorgian",
+        "Valverde, Federico",
+        "Bentancur, Rodrigo",
+        "Silva, Gaston",
+        "Urreta, Jonathan",
+        "Gomez, Maximiliano",
+        "Nandez, Nahitan",
+        "Vecino, Matias",
+        "Laxalt, Diego",
+        "Torreira, Lucas",
+        "Varela, Guillermo",
+        "Urretavizcaya, Jonathan"
+      ]
+    },
+    {
+      "question": "FIFA VM - Vinnende Confederation",
+      "alternatives": ["Uefa", "AFC", "Concacaf", "Conmebol", "Caf"]
+    }
+  ],
+  "alternatives_teams": [
+    { "alternative": "Danmark" },
+    { "alternative": "Frankrike" },
+    { "alternative": "Sverige" },
+    { "alternative": "Russland" },
+    { "alternative": "Spania" },
+    { "alternative": "Sveits" },
+    { "alternative": "Polen" },
+    { "alternative": "Portugal" },
+    { "alternative": "Island" },
+    { "alternative": "Tyskland" },
+    { "alternative": "England" },
+    { "alternative": "Kroatia" },
+    { "alternative": "Belgia" },
+    { "alternative": "Uruguay" },
+    { "alternative": "Tunisia" },
+    { "alternative": "Republikken Korea" },
+    { "alternative": "Senegal" },
+    { "alternative": "Australia" },
+    { "alternative": "Brasil" },
+    { "alternative": "Costa Rica" },
+    { "alternative": "Egypt" },
+    { "alternative": "Iran" },
+    { "alternative": "Japan" },
+    { "alternative": "Marokko" },
+    { "alternative": "Mexico" },
+    { "alternative": "Nigeria" },
+    { "alternative": "Peru" },
+    { "alternative": "Argentina" },
+    { "alternative": "Colombia" },
+    { "alternative": "Saudi-Arabia" },
+    { "alternative": "Panama" },
+    { "alternative": "Serbia" }
+  ]
+}
