@@ -1,5 +1,3 @@
-[%bs.raw {|require('./App.css')|}];
-
 module GetUsers = [%graphql
   {|
   query {
@@ -43,13 +41,17 @@ let make = _children => {
                      "Noe gikk galt!" |> ReasonReact.string;
                    | Loading => "Laster..." |> ReasonReact.string
                    | Data(response) =>
-                     response##users
-                     |> Array.map(user =>
-                          <div key=user##id>
-                            (user##name |> ReasonReact.string)
-                          </div>
-                        )
-                     |> ReasonReact.array
+                     <MaterialUI.List>
+                       (
+                         response##users
+                         |> Array.map(user =>
+                              <MaterialUI.ListItem key=user##id>
+                                (user##name |> ReasonReact.string)
+                              </MaterialUI.ListItem>
+                            )
+                         |> ReasonReact.array
+                       )
+                     </MaterialUI.List>
                    }
                  )
                </div>
