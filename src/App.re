@@ -23,28 +23,37 @@ module GetUsersQuery = ReasonApollo.CreateQuery(GetUsers);
 let make = _children => {
   ...ReasonReact.statelessComponent("App"),
   render: _self =>
-    <GetUsersQuery>
-      ...(
-        ({result}) =>
-          <div>
-            <h1>
-              ("Velkommen til VM-Konkurranse 2018" |> ReasonReact.string)
-            </h1>
-            (
-              switch (result) {
-              | NoData => "Finner ingen brukere." |> ReasonReact.string
-              | Error(e) =>
-                Js.Console.log(e);
-                "Noe gikk galt!" |> ReasonReact.string;
-              | Loading => "Laster..." |> ReasonReact.string
-              | Data(response) =>
-                response##users
-                |> Array.map((user) =>
-                  <div key=user##id>(user##name |> ReasonReact.string)</div>)
-                |> ReasonReact.array
-              }
-            )
-          </div>
-        )
-    </GetUsersQuery>,
+    <div>
+      <MaterialUI.AppBar position=`Static color=`Inherit>
+        <MaterialUI.Toolbar>
+          <MaterialUI.Typography variant=`Title color=`Inherit>
+            (ReasonReact.string("VM-Konkurranse 2018"))
+          </MaterialUI.Typography>
+        </MaterialUI.Toolbar>
+      </MaterialUI.AppBar>
+      <GetUsersQuery>
+        ...(
+             ({result}) =>
+               <div>
+                 (
+                   switch (result) {
+                   | NoData => "Finner ingen brukere." |> ReasonReact.string
+                   | Error(e) =>
+                     Js.Console.log(e);
+                     "Noe gikk galt!" |> ReasonReact.string;
+                   | Loading => "Laster..." |> ReasonReact.string
+                   | Data(response) =>
+                     response##users
+                     |> Array.map(user =>
+                          <div key=user##id>
+                            (user##name |> ReasonReact.string)
+                          </div>
+                        )
+                     |> ReasonReact.array
+                   }
+                 )
+               </div>
+           )
+      </GetUsersQuery>
+    </div>,
 };
