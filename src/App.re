@@ -18,6 +18,15 @@ module GetUsers = [%graphql
 
 module GetUsersQuery = ReasonApollo.CreateQuery(GetUsers);
 
+let renderMessage = message =>
+  <MaterialUI.List>
+    <MaterialUI.ListItem>
+      <MaterialUI.Typography variant=`Body1 color=`Secondary>
+        (message |> ReasonReact.string)
+      </MaterialUI.Typography>
+    </MaterialUI.ListItem>
+  </MaterialUI.List>;
+
 let make = _children => {
   ...ReasonReact.statelessComponent("App"),
   render: _self =>
@@ -35,19 +44,11 @@ let make = _children => {
                <div>
                  (
                    switch (result) {
-                   | NoData => "Finner ingen brukere." |> ReasonReact.string
+                   | NoData => renderMessage("Finner ingen brukere.")
                    | Error(e) =>
                      Js.Console.log(e);
-                     "Noe gikk galt!" |> ReasonReact.string;
-                   | Loading =>
-                     <MaterialUI.List>
-                       <MaterialUI.ListItem>
-                         <MaterialUI.Typography
-                           variant=`Body1 color=`Secondary>
-                           ("Laster..." |> ReasonReact.string)
-                         </MaterialUI.Typography>
-                       </MaterialUI.ListItem>
-                     </MaterialUI.List>
+                     renderMessage("Noe gikk galt!");
+                   | Loading => renderMessage("Laster...")
                    | Data(response) =>
                      <MaterialUI.List>
                        (
