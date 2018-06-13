@@ -22,10 +22,10 @@ let make = _children => {
   ...ReasonReact.statelessComponent("App"),
   render: _self =>
     <div>
-      <MaterialUI.AppBar position=`Static color=`Inherit>
+      <MaterialUI.AppBar position=`Static>
         <MaterialUI.Toolbar>
           <MaterialUI.Typography variant=`Title color=`Inherit>
-            (ReasonReact.string("VM-Konkurranse 2018"))
+            ("VM-Konkurranse 2018" |> ReasonReact.string)
           </MaterialUI.Typography>
         </MaterialUI.Toolbar>
       </MaterialUI.AppBar>
@@ -39,14 +39,25 @@ let make = _children => {
                    | Error(e) =>
                      Js.Console.log(e);
                      "Noe gikk galt!" |> ReasonReact.string;
-                   | Loading => "Laster..." |> ReasonReact.string
+                   | Loading =>
+                     <MaterialUI.List>
+                       <MaterialUI.ListItem>
+                         <MaterialUI.Typography
+                           variant=`Body1 color=`Secondary>
+                           ("Laster..." |> ReasonReact.string)
+                         </MaterialUI.Typography>
+                       </MaterialUI.ListItem>
+                     </MaterialUI.List>
                    | Data(response) =>
                      <MaterialUI.List>
                        (
                          response##users
                          |> Array.map(user =>
                               <MaterialUI.ListItem key=user##id>
-                                (user##name |> ReasonReact.string)
+                                <MaterialUI.Typography
+                                  variant=`Body1 color=`Default>
+                                  (user##name |> ReasonReact.string)
+                                </MaterialUI.Typography>
                               </MaterialUI.ListItem>
                             )
                          |> ReasonReact.array
