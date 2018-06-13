@@ -4,7 +4,9 @@
 external register_service_worker : unit => unit = "default";
 
 ReactDOMRe.renderToElementWithId(
-  <App message="Velkommen til VM-Konkurranse 2018" />,
+  <ReasonApollo.Provider client=Client.instance>
+    <App />
+  </ReasonApollo.Provider>,
   "root",
 );
 

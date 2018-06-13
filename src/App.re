@@ -1,20 +1,50 @@
 [%bs.raw {|require('./App.css')|}];
 
-let component = ReasonReact.statelessComponent("App");
+module GetUsers = [%graphql
+  {|
+  query {
+    users {
+      id
+      name
+      points
+      questions {
+        question
+        answer
+        blueprint
+        points
+      }
+    }
+  }
+|}
+];
 
-let make = (~message, _children) => {
-  ...component,
+module GetUsersQuery = ReasonApollo.CreateQuery(GetUsers);
+
+let make = _children => {
+  ...ReasonReact.statelessComponent("App"),
   render: _self =>
-    <div className="App">
-      <div className="App-header">
-        <h2> (ReasonReact.string(message)) </h2>
-      </div>
-      <p className="App-intro">
-        (
-          ReasonReact.string(
-            "Siden er under contruction, og vil vaere ferdig innen VM-start!",
-          )
+    <GetUsersQuery>
+      ...(
+        ({result}) =>
+          <div>
+            <h1>
+              ("Velkommen til VM-Konkurranse 2018" |> ReasonReact.string)
+            </h1>
+            (
+              switch (result) {
+              | NoData => "Finner ingen brukere." |> ReasonReact.string
+              | Error(e) =>
+                Js.Console.log(e);
+                "Noe gikk galt!" |> ReasonReact.string;
+              | Loading => "Laster..." |> ReasonReact.string
+              | Data(response) =>
+                response##users
+                |> Array.map((user) =>
+                  <div key=user##id>(user##name |> ReasonReact.string)</div>)
+                |> ReasonReact.array
+              }
+            )
+          </div>
         )
-      </p>
-    </div>,
+    </GetUsersQuery>,
 };
