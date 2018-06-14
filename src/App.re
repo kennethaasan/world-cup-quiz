@@ -50,20 +50,36 @@ let make = _children => {
                      renderMessage("Noe gikk galt!");
                    | Loading => renderMessage("Laster...")
                    | Data(response) =>
-                     <MaterialUI.List>
-                       (
-                         response##users
-                         |> Array.map(user =>
-                              <MaterialUI.ListItem key=user##id>
-                                <MaterialUI.Typography
-                                  variant=`Body1 color=`Default>
-                                  (user##name |> ReasonReact.string)
-                                </MaterialUI.Typography>
-                              </MaterialUI.ListItem>
-                            )
-                         |> ReasonReact.array
-                       )
-                     </MaterialUI.List>
+                     <div>
+                       <MaterialUI.Table>
+                         <MaterialUI.TableBody>
+                           (
+                             response##users
+                             |> Array.map(user =>
+                                  <MaterialUI.TableRow key=user##id>
+                                    <MaterialUI.TableCell>
+                                      <MaterialUI.Typography
+                                        variant=`Body1 color=`Default>
+                                        (user##name |> ReasonReact.string)
+                                      </MaterialUI.Typography>
+                                    </MaterialUI.TableCell>
+                                    <MaterialUI.TableCell>
+                                      <MaterialUI.Typography
+                                        variant=`Body1 color=`Primary>
+                                        (
+                                          user##points
+                                          |> string_of_int
+                                          |> ReasonReact.string
+                                        )
+                                      </MaterialUI.Typography>
+                                    </MaterialUI.TableCell>
+                                  </MaterialUI.TableRow>
+                                )
+                             |> ReasonReact.array
+                           )
+                         </MaterialUI.TableBody>
+                       </MaterialUI.Table>
+                     </div>
                    }
                  )
                </div>
