@@ -50,7 +50,23 @@ let make = (~user_id, _children) => {
                                 question##question |> ReasonReact.string
                               )
                               secondary=(
-                                question##answer |> ReasonReact.string
+                                {
+                                  let answer = "Svar: " ++ question##answer;
+                                  switch (question##blueprint) {
+                                  | None => answer
+                                  | Some(blueprint) =>
+                                    let base =
+                                      answer ++ " | " ++ "Fasit: " ++ blueprint;
+                                    switch (question##points) {
+                                    | None => base
+                                    | Some(points) =>
+                                      base
+                                      ++ " | Poeng: "
+                                      ++ (points |> string_of_int)
+                                    };
+                                  };
+                                }
+                                |> ReasonReact.string
                               )
                             />
                           </MaterialUI.ListItem>
