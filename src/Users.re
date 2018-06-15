@@ -27,6 +27,9 @@ let renderMessage = message =>
     </MaterialUI.ListItem>
   </MaterialUI.List>;
 
+let renderLink = (user, content) =>
+  <Router.Link route=(User(user##id))> content </Router.Link>;
+
 let make = _children => {
   ...ReasonReact.statelessComponent("Users"),
   render: _self =>
@@ -47,20 +50,30 @@ let make = _children => {
                      |> Array.map(user =>
                           <MaterialUI.TableRow key=user##id>
                             <MaterialUI.TableCell>
-                              <MaterialUI.Typography
-                                variant=`Body1 color=`Default>
-                                (user##name |> ReasonReact.string)
-                              </MaterialUI.Typography>
+                              (
+                                renderLink(
+                                  user,
+                                  <MaterialUI.Typography
+                                    variant=`Body1 color=`Default>
+                                    (user##name |> ReasonReact.string)
+                                  </MaterialUI.Typography>,
+                                )
+                              )
                             </MaterialUI.TableCell>
                             <MaterialUI.TableCell>
-                              <MaterialUI.Typography
-                                variant=`Body1 color=`Primary>
-                                (
-                                  user##points
-                                  |> string_of_int
-                                  |> ReasonReact.string
+                              (
+                                renderLink(
+                                  user,
+                                  <MaterialUI.Typography
+                                    variant=`Body1 color=`Primary>
+                                    (
+                                      user##points
+                                      |> string_of_int
+                                      |> ReasonReact.string
+                                    )
+                                  </MaterialUI.Typography>,
                                 )
-                              </MaterialUI.Typography>
+                              )
                             </MaterialUI.TableCell>
                           </MaterialUI.TableRow>
                         )

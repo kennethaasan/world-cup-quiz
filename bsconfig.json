@@ -5,7 +5,8 @@
     "reason-react",
     "@glennsl/bs-jest",
     "reason-apollo",
-    "bs-material-ui"
+    "bs-material-ui",
+    "re-classnames"
   ],
   "reason": {
     "react-jsx": 2

@@ -18,10 +18,10 @@ module GetUser = [%graphql
 
 module GetUserQuery = ReasonApollo.CreateQuery(GetUser);
 
-let make = _children => {
+let make = (~user_id, _children) => {
   ...ReasonReact.statelessComponent("User"),
   render: _self => {
-    let getUserQuery = GetUser.make(~user_id="1", ());
+    let getUserQuery = GetUser.make(~user_id, ());
     <GetUserQuery variables=getUserQuery##variables>
       ...(
            ({result}) =>
@@ -34,7 +34,30 @@ let make = _children => {
              | Data(response) =>
                switch (response##user) {
                | None => Users.renderMessage("Finner ikke brukeren.")
-               | Some(user) => user##name |> ReasonReact.string
+               | Some(user) =>
+                 <MaterialUI.List>
+                   <MaterialUI.ListItem>
+                     <MaterialUI.Typography variant=`Title color=`Primary>
+                       (user##name |> ReasonReact.string)
+                     </MaterialUI.Typography>
+                   </MaterialUI.ListItem>
+                   (
+                     user##questions
+                     |> Array.map(question =>
+                          <MaterialUI.ListItem key=question##question>
+                            <MaterialUI.ListItemText
+                              primary=(
+                                question##question |> ReasonReact.string
+                              )
+                              secondary=(
+                                question##answer |> ReasonReact.string
+                              )
+                            />
+                          </MaterialUI.ListItem>
+                        )
+                     |> ReasonReact.array
+                   )
+                 </MaterialUI.List>
                }
              }
          )
