@@ -50,23 +50,26 @@ let make = (~user_id, _children) => {
                                 question##question |> ReasonReact.string
                               )
                               secondary=(
-                                {
-                                  let answer = "Svar: " ++ question##answer;
-                                  switch (question##blueprint) {
-                                  | None => answer
-                                  | Some(blueprint) =>
-                                    let base =
-                                      answer ++ " | " ++ "Fasit: " ++ blueprint;
-                                    switch (question##points) {
-                                    | None => base
-                                    | Some(points) =>
-                                      base
-                                      ++ " | Poeng: "
-                                      ++ (points |> string_of_int)
-                                    };
-                                  };
+                                switch (question##blueprint) {
+                                | None => <Answer answer=question##answer />
+                                | Some(blueprint) =>
+                                  switch (question##points) {
+                                  | None =>
+                                    <div>
+                                      <Answer answer=question##answer />
+                                      <Divider />
+                                      <Blueprint blueprint />
+                                    </div>
+                                  | Some(points) =>
+                                    <div>
+                                      <Answer answer=question##answer />
+                                      <Divider />
+                                      <Blueprint blueprint />
+                                      <Divider />
+                                      <Points points />
+                                    </div>
+                                  }
                                 }
-                                |> ReasonReact.string
                               )
                             />
                           </MaterialUI.ListItem>
